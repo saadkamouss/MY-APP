@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import  { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
-import App from './App';
+import NotFound from './pages/notfound.tsx';
 import HomePage from './pages/page.tsx';
 import ProfilePage from './pages/page1.tsx';
 import ProfilePages from './pages/page2.tsx';
-import NotFound from './pages/notfound.tsx';
 import reportWebVitals from './reportWebVitals';
-
 const router = createBrowserRouter([{
   path: '/',
   element: <HomePage/>,
